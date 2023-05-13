@@ -14,3 +14,12 @@ I find that writing down the idea helps me think. The writing allows my mind to
 explore the idea deeply, and see if there are caveats, or potential issues.
 
 On this page I post the things that I'd love to dig into.
+
+## Analog 
+
+<ul>
+  {% for tt in site.analog %}
+    <li><a href="{{site.baseurl}}/{{ tt.url }}"> {{ page.date | date: '%B %d, %Y' }} {{ tt.title }}</a></li>
+
+  {% endfor %}
+</ul>
