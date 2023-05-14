@@ -36,7 +36,12 @@ principle is [Don't repeat
 yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). We violate
 that often in analog circuit design. 
 
-For the past soon 70 years of integrated circuit design the way we make analog
+70 years ago the first transistor was made, but it was only with the work of
+Mead and Conway in the 1980's and the pure foundries, like TSMC, we got EDA
+companies. Today Cadence (1988), Mentor Graphics (1981) and Synopsys (1986)
+dominate the EDA industries.
+
+For the past 40 years the way we make analog
 circuits have not changed much. Every 5 ish years we have to change technology
 (180 nm to 55 nm to 22 nm). Every time we change technologies we  **have to
 repeat our self**. We have to create the schematics, and the layout all over again.
